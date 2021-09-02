@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main(void) 
+{ 
+	//    输入十个数字再反向输出    
+	
+	int a[10];
+	int i,t;     
+	printf("请输入一串数字：\n");
+	
+	/*  储存十个数     */
+	for(i=0;i<=9;i++)
+		{
+			printf("请输入一个数字："); 
+			scanf("%d",&a[i]);
+		 } 
+	
+	/*    输出这十个数       */
+	for(t=9;t>=0;t--)
+		{
+			printf("%d\n",a[t]);
+		}
+
+
+
+
+
+
+
+
+}   //主函数的花括号 
