@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+
+int main(void) 
+{ 	
+	double n_power(double a,double b)
+	{
+		double i_q;
+		for(a;a>0;a--)
+			{
+				i_q*=b;
+			}
+		printf("%d",i_q);
+	}
+	n_power(4,3);
+	
+	
+	
+}   //主函数的花括号 
+
+
